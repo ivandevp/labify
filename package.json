@@ -1,0 +1,32 @@
+{
+  "name": "labify",
+  "version": "0.0.1",
+  "description": "Laboratoria - Student's project structure",
+  "main": "app.js",
+  "bin": {
+    "labify": "./app.js"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laboratoria/labify.git"
+  },
+  "keywords": [
+    "laboratoria",
+    "students",
+    "projects",
+    "structure",
+    "node"
+  ],
+  "author": "Ivan Medina <ivan@laboratoria.la>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laboratoria/labify/issues"
+  },
+  "homepage": "https://github.com/Laboratoria/labify#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

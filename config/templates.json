@@ -1,0 +1,38 @@
+{
+	"basic": {
+		"files": [
+			"index.html",
+			{
+				"css": [ "main.css" ]
+			},
+			{
+				"js": [ "app.js" ]
+			}
+		]
+	},
+	"pro": {
+		"files": [
+			"server.js",
+			{
+				"src": [
+					{
+						"sass": [ "main.sccs" ]
+					},
+					{
+						"js": [
+							"app.js",
+							{
+								"components": [
+									"demo.js"
+								]
+							}
+						]
+					}		
+				]
+			}
+		],
+		"dependencies": [
+			"browserify"
+		]
+	}
+}
